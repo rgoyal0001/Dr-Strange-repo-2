@@ -1,0 +1,36 @@
+             id:'pictoBloxString',
+            name:'PictoBloxString',
+            blocks:[
+                {
+                    opcode:'indexOf',
+                    blockType:BlockType.REPORTER,
+                    text :'index of the second string in the first string',
+                    arguments:{
+                        Text1:{
+                            type:ArgumentType.STRING,
+                            defaultValue:''
+                        },
+                        Text2:{
+                            type:ArgumentType.STRING,
+                            defaultValue:''
+                        }
+                    }
+                },
+                {
+                    opcode:'equal',
+                    blockType:BlockType.REPORTER,
+                    text :'strings are equal or not',
+                    arguments:{
+                        Text1:{
+                            type:ArgumentType.STRING,
+                            defaultValue:''
+                        },
+                        Text2:{
+                            type:ArgumentType.STRING,
+                            defaultValue:''
+                        }
+                    }
+                }
+            ],
+            menus:{
+            }
